@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sprint2</title>
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="row">
+        <nav class="navbar navbar-expand-md" style="margin-top: 30px">
+          <div id="logo_menu" class="container">
+            <img
+              class="navbar-brand"
+              src="recursos_sprint2/Imagenes/logo-bookmark.svg"
+            />
+            <button
+              class="navbar-toggler border-0"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+            >
+              <span
+                class="navbar-toggler-icon d-flex justify-content-end"
+              ></span>
+            </button>
+            <div id="menu" class="d-flex flex-row-reverse">
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul
+                  class="navbar-nav me-auto mb-2 mb-lg-0"
+                  style="font-size: smaller"
+                >
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" style="color: black"
+                      >FEATURES</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" style="color: black"
+                      >PRICING</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" style="color: black"
+                      >CONTACT</a
+                    >
+                  </li>
+                  <button
+                    type="button"
+                    class="btn btn-danger"
+                    style="
+                      color: white;
+                      font-size: smaller;
+                      box-shadow: 0px 4px 10px rgba(205, 205, 205, 1);
+                    "
+                  >
+                    LOGIN
+                  </button>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <main id="texto_imagen" class="row">
+        <section class="col-12 col-md-7">
+          <h1 class="text-left" style="margin-top: 70px">
+            A Simple Bookmark Manager
+          </h1>
+
+          <p class="text-left" style="max-width: 30rem; color: grey">
+            A clean and simple interface to organize your favourite websites.
+            Open a new browser tab and see your sites load instantly. Try it for
+            free.
+          </p>
+
+          <button
+            type="button"
+            id="boton-chrome"
+            class="btn btn-primary btn-lg"
+            style="
+              margin-top: 10px;
+              margin-left: 10px;
+              font-size: medium;
+              width: 190px;
+            "
+          >
+            Get it on Chrome
+          </button>
+
+          <button
+            type="button"
+            id="boton-firefox"
+            class="btn btn-light btn-lg"
+            style="
+              box-shadow: 0px 4px 10px rgba(82, 102, 223, 0.3);
+              font-size: medium;
+              margin-left: 10px;
+              margin-top: 10px;
+              width: 190px;
+            "
+          >
+            Get it on Firefox
+          </button>
+        </section>
+        <section id="imagen_primera" class="col-12 col-md-5">
+          <img
+            class="img-fluid"
+            style="margin-top: 40px"
+            alt="imagen_ordenador"
+            src="recursos_sprint2/Imagenes/illustration-hero.svg"
+          />
+
+          <div
+            class="content-fluid bg-primary"
+            style="
+              width: 140rem;
+              min-height: 15rem;
+              margin-top: -200px;
+              margin-left: 100px;
+              border-top-left-radius: 160px;
+              border-bottom-left-radius: 160px;
+            "
+          ></div>
+        </section>
+      </main>
+    </div>
+    <script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

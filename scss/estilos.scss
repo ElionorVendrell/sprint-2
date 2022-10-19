@@ -1,0 +1,14 @@
+// patron de colores:
+$complementario: #e46a68;
+$principal: #5266df;
+$gris: rgb(236, 234, 234);
+//
+//modificar variables de bootstrap:
+//
+$theme-colors: (
+  "danger": $complementario,
+  "primary": $principal,
+  "light": $gris,
+);
+
+@import "../libs/bootstrap/scss/bootstrap.scss";
