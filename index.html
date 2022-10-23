@@ -124,15 +124,16 @@
           ></div>
         </section>
       </main>
-      <section id="features" class="row">
-        <h1 class="col-12 text-center" style="margin-top: 100px">Features</h1>
-        <p class="col-12 text-center" style="margin-top: 40px; color: grey">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit,
-          sequi? Dolores quia iusto, obcaecati laborum possimus repellat
-          perspiciatis aliquam accusamus nostrum deserunt unde hic, voluptate
-          adipisci suscipit delectus nulla. Sint.
-        </p>
-      </section>
+      <section id="features" class="container">
+          <div class="row">
+            <div class="col-12 text-center" style="margin-top: 60px;">
+              <h2>Features</h2>
+              <p class="text-center text-wrap container-fluid" style="margin-top: 40px; width: 70%; color:grey;"
+              >Our aim is to make it quick and easy for you to acces your favourite websites. Your bookmarks sync
+            between your devices so you can acces them on the go.</p>
+            </div>
+          </section>
+      
       <div id="nav_features" class="container">
         <nav class="row" style="margin-top: 20px">
           <ul class="nav">
@@ -207,17 +208,18 @@
       </section>
       <section id="download_extension" class="container mt-5">
         <div class="row">
-          <h2 class="col-12 text-center" style="margin-top: 100px">
+          <div class="col-12 text-center" style="margin-top: 60px;">
+          <h2>
             Download the extension
           </h2>
-          <p class="col-12 text-center" style="margin-top: 40px; color: grey">
+          <p class="text-center text-wrap container-fluid" style="margin-top: 40px; color: grey; width:70%;">
             We've got more browsers in the pipeline. Please do let us know if
             you've got a favourite you'd like us to prioritize.
           </p>
         </div>
       </section>
 
-      <div id="cards" class="container mt-5">
+      <section id="cards" class="container mt-5">
         <div class="row d-flex justify-content-center">
           <div class="col-8 col-lg-3">
             <div class="card border-0 mb-5 shadow height-lg:300px">
@@ -300,6 +302,66 @@
             </div>
           </div>
         </div>
+      </section>
+      <section id="FAQS" class="container">
+        <div class="row">
+          <div class="col-12 text-center" style="margin-top: 60px;">
+            <h2>Frequently Asked Questions</h2>
+            <p class="text-center text-wrap container-fluid" style="margin-top: 40px; width: 70%; color:grey;">Here are some of our FAQs. If you have any other question you'd like answered please feel free to email us.</p>
+          </div>
+      </section>
+      <section id="accordion" class="container mt-3 d-flex justify-content-center">
+        <div class="accordion accordion-flush" style="width:60%;" >
+          <div class="accordion-item" >
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" style="background-color: white;" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                What is Bookmark?
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quidem provident laboriosam at fuga deleniti quo aliquid unde adipisci fugiat minus enim possimus recusandae, ea repudiandae beatae, qui optio numquam?</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" style="background-color: white;" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+               How can I request a new browser?
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi soluta consequuntur, doloremque blanditiis eos ipsa incidunt unde dolore neque fugit assumenda, natus rerum culpa provident cum quia repellendus? Eveniet, labore!</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" style="background-color: white;" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Is there a mobile app?
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, eum sapiente officia deserunt harum ipsum labore assumenda deleniti quas neque distinctio quaerat accusamus et inventore exercitationem libero laborum amet eos.</div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" style="background-color: white;" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                What about other Chromium browsers?
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. A totam natus perferendis, porro saepe libero eos culpa debitis nesciunt molestiae odit ut dolorem illum dolore obcaecati itaque et mollitia aliquid?</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class=" container d-flex justify-content-center " id="boton_faqs" >
+          <a
+                    href="#"
+                    class="btn btn-primary  mt-3 text-center"
+                    style="box-shadow: 0px 4px 10px rgba(205, 205, 205, 1); width: 30%;"
+                    >More Info</a
+                  >        
       </div>
     </div>
     <script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
