@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/estilos.css" />
   </head>
   <body>
-    <div class="container d.flex">
+    <div class="container-fluid d.flex">
       <header class="row">
         <nav class="navbar navbar-expand-md" style="margin-top: 30px">
           <div id="logo_menu" class="container">
@@ -62,7 +62,7 @@
           </div>
         </nav>
       </header>
-      <main id="texto_imagen" class="row">
+      <main id="texto_imagen" class="row p-5">
         <section class="col-12 col-md-7">
           <h1 class="text-left" style="margin-top: 70px">
             A Simple Bookmark Manager
@@ -183,10 +183,10 @@
         <section
           id="bookmark_text"
           class="col-12 col-md-7"
-          style="margin-top: 70px"
+          style="margin-top: 70px; padding-left: 5rem;"
         >
           <h1>Bookmark in one click</h1>
-          <p style="color: grey">
+          <p style="color: grey; width: 70%;">
             Organize your bookmarks however you like. Our simple drag-and-droge
             interface gives ou complete control over how you manage your
             favourite sites.
@@ -359,10 +359,84 @@
           <a
                     href="#"
                     class="btn btn-primary  mt-3 text-center"
-                    style="box-shadow: 0px 4px 10px rgba(205, 205, 205, 1); width: 30%;"
+                    style="box-shadow: 0px 4px 10px rgba(205, 205, 205, 1); max-width: 10rem;"
                     >More Info</a
                   >        
       </div>
+      <div style="margin-top:5rem;"></div>
+
+  <div class="row d-flex justify-content-center mt-5 bg-primary">
+    <div class="row d-flex justify-content-center">
+    
+      <p class="col-12 text-center" style="font-family:'Gill Sans', sans-serif; color:white; padding-top:2rem;"> 35.000 + ALREADY JOINED </p>
+      <div class="col-12">
+        <h2 class="pt-2 text-center" style="color:white;">
+          <strong>Stay up-to-date with what we're doing </strong>
+        </h2>
+      </div>
+
+      <div class="needs-validation col-md-5 col-12">
+
+        <form class="form-outline mt-4 mb-4">
+          <input type="email" id="form5Example27" class="form-control" placeholder="Enter your email address" style="font: grey;" required/>
+          <div class="valid-feedback">Valid.</div>
+          <div class="invalid-feedback">Please fill out this field.</div>
+        </form>
+
+      </div>
+     
+      <div class="col-auto">
+
+        <button type="submit" class="btn btn-danger mt-4 mb-4" style="color: white;">
+          Contact Us
+        </button>
+      </div>
+
+    </div>
+  </div>
+  <div class="row color-footer justify-content-center" style="background-color: rgb(35, 35, 85)">
+    <nav class="navbar navbar-expand-md" id="active-button">
+      <div class="container col-12 justify-content-center col-md-9">
+        <a href="#" class="navbar-brand">
+          <img
+            src="./recursos_sprint2/Imagenes/logo-bookmark.svg"
+            alt="logo-bookmarkm" style="padding-left: 2rem;"
+          />
+        </a>
+        <div class="container">
+          <div class="row text-center">
+            <ul class="navbar-nav" style="padding-left: 2rem;">
+              <li class="nav-item">
+                <a class="nav-link link-light" id="nav-hover" href="#"
+                  >FEATURES</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-light" id="nav-hover" href="#"
+                  >PRICING</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-light" id="nav-hover" href="#"
+                  >CONTACT</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-3 text-center">
+        <img
+          src="./recursos_sprint2/Imagenes/icon-facebook.svg"
+          alt="facebook" style="padding-left: 2rem;"
+        />
+        <img
+          src="./recursos_sprint2/Imagenes/icon-twitter.svg"
+          alt="twitter" style="padding-left: 2rem;"
+        />
+      </div>
+    </nav>
+  </div>
     </div>
     <script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
